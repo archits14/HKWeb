@@ -192,10 +192,17 @@ img{
     opacity: 0.9;
   }
 
-#cp_widget_3ae34345-f3fb-4445-872e-a5ce5df678e0{
-    max-width: 50rem;
-    max-height: 50rem;
-    
-    
-}
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+  }
   
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%)
+  }
+  
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left{ 
+    transform: translateX(0);
+  }

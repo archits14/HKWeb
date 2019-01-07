@@ -1,6 +1,6 @@
 body{
     /* background-color: lightslategray; */
-    color: rgb(95, 25, 7);
+    color: rgba(134, 44, 21, 1);
     font-family: 'Merriweather';
 }
 
@@ -89,6 +89,7 @@ h2{
 #carCaption h3{
     font-size: medium;
     text-transform: uppercase;
+    color: #fff;
 }
 
 @media screen and (min-width: 500px) {
@@ -266,3 +267,21 @@ h2{
         width: 4rem;
         padding: .8rem;
     }
+
+    #about p{
+        text-align: justify;
+    }
+
+    p{
+        color: rgba(134, 44, 21, .8);
+    }
+
+    #story p{
+        text-align: justify;
+    }
+
+    /* h2,h3,h4,h5{
+        color: rgba(134, 44, 21, .8);
+    } */
+
+    

@@ -40,24 +40,6 @@ h2{
     padding-top: 10vh;
 }
 
-/* .carousel,
-#carCaption {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-}
-
-#carCaption {
-    padding-top: 40vh;
-    z-index: 10;
-    width: 70rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-} */
-
 #storycover{
     background-image: url(./images/storycover.jpg);
     height: 400px;

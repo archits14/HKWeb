@@ -235,3 +235,34 @@ h2{
         max-height: 25rem;
     }
   }
+
+  hr.style-hr {
+    height: 30px;
+    border-style: solid;
+    border-color: rgba(134, 44, 21, .4);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    }
+    
+    hr.style-hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgba(134, 44, 21, .4);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    }
+    
+    /* hr.style-hr {
+        height: 12px;
+        border: 0;
+        box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    } */
+
+    #smlogos img{
+        height: 4rem;
+        width: 4rem;
+        padding: .8rem;
+    }

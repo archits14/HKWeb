@@ -195,9 +195,7 @@ h2{
 }
 
 
-img{
-    z-index: -1;
-}
+
 
 #support img{
     height: 15rem;
@@ -233,3 +231,25 @@ img{
     opacity: 0.9;
   }
 
+.card {
+    width: 25rem;
+    margin: 1rem;
+}
+
+.card-img-top{
+    max-height: 20rem;
+}
+
+.card-body{
+    justify-content: end;
+}
+
+.card-header{
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 680px) {
+    .card-img-top{
+        max-height: 25rem;
+    }
+  }

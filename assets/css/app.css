@@ -1,24 +1,38 @@
 body{
     /* background-color: lightslategray; */
     color: rgba(134, 44, 21, 1);
-    font-family: 'Merriweather';
+    font-family: 'Playfair Display';
 }
 
 h1{
     text-transform: uppercase;
     padding-bottom: 1rem;
     color: rgb(134, 44, 21);
+    letter-spacing: 0.1rem;
+    font-family: "Playfair Display";
 }
 
 h2{
     text-transform: uppercase;
     padding-bottom: 2rem;
     color: rgb(134, 44, 21);
+    letter-spacing: 0.1rem;
+    font-family: "Playfair Display";
+}
+
+p{
+    color: rgba(134, 44, 21, .7);
+    font-size: 1rem;
+    font-family: "Open Sans";
 }
 
 /* .row{
     display: block;
 } */
+
+#contact a{
+    color: rgba(134, 44, 21, .6);
+}
 
 #media img{
     max-width: 50vh;
@@ -29,7 +43,7 @@ h2{
     left: 0;
     position: relative;
     z-index: -2;
-    height: 100vh;
+    max-height: 100vh;
 }
 
 .carousel img{
@@ -174,7 +188,8 @@ h2{
 }
 
 #subsection{
-    /* padding-top: 1rem; */
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -205,7 +220,7 @@ h2{
   }
 
   #knowbutton {
-    font-family: 'Fira Sans';
+    font-family: 'Open Sans';
     z-index: 1;
     position: relative;
     text-align: center;
@@ -272,9 +287,7 @@ h2{
         text-align: justify;
     }
 
-    p{
-        color: rgba(134, 44, 21, .8);
-    }
+
 
     #story p{
         text-align: justify;
